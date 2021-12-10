@@ -3,7 +3,7 @@
 $local_serve = "localhost";      // local do servidor
 $usuario_serve = "root";         // nome do usuario
 $senha_serve = "";                  // senha
-$banco = "login";      // nome do banco de dados
+$banco = "usuario";      // nome do banco de dados
 
 $conn = mysqli_connect($local_serve,$usuario_serve,$senha_serve,$banco) or die ("Não foi possivel conectar-se ao banco de dados!");
 

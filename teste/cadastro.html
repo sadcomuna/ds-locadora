@@ -3,18 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela cadastro</title>   
+    <title> Sign-up </title>   
+    <link rel="stylesheet" href="style-cadastro.css">
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />  
 </head>
 
 <body>
-   <h1>TELA DE CADASTRO</h1><BR>
+    <center>
+        <!-- Header-->
+        <header class="bg-dark py-5" style="background-color: antiquewhite;" >
+          <div class="container px-4 px-lg-5 my-5">
+              <div class="text-center text-white">
+                  <h1 class="display-4 fw-bolder">Tela de Cadastro </h1>
+                  <p class="lead fw-normal text-white-50 mb-0">Aluge um carro sem precisar sair de casa</p>
+              </div>
+          </div>
+      </header>
+
+   <br> <br>
+  <section>
     <form method="POST" action="cadastraruser.php">
-    USUARIO: <input type="text" name="usuario"><br>
-    SENHA: <input type="password" name="senha"><br>
+    Usuário: <input type="text" name="usuario"><br /> <br />
+    Senha: <input type="password" name="senha"><br /> <br>
     <input type="submit" name="botao" value="Cadastrar">
-    </form><br>
-    <a href="index.php">Voltar</a>
+    </form><br> <br>
+    <a href="login.html">Voltar</a> 
+    </center>
     
+</section>
 </body>
 
 </html>

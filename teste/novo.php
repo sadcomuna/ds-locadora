@@ -9,6 +9,6 @@
   echo "Usuario logado: $usuario";
   echo "<br>";
 
-  echo " <a href='login.html'>Voltar</a> ";
+  echo " <a href='index.php'>Voltar</a> ";
 
 ?>
